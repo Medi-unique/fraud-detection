@@ -1,0 +1,6 @@
+feature,mean_abs_shap
+num__device_tx_count,1.292704
+num__time_since_signup,0.61069256
+num__day_of_week,0.41798642
+cat__country_United States,0.1574027
+num__age,0.11446178

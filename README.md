@@ -76,6 +76,21 @@ jupyter notebook notebooks/
 4. `modeling.ipynb` — LR vs XGBoost, CV, model selection  
 5. `shap-explainability.ipynb` — Importance, SHAP, recommendations  
 
+## Report
+
+A written analysis with all figures lives in `reports/`:
+
+- `reports/REPORT.md` — Medium-style article (markdown)
+- `reports/REPORT.pdf` — same report as a styled PDF
+- `reports/figures/` — generated plots and metrics tables
+
+Regenerate both from the processed data and saved models:
+
+```bash
+python scripts/generate_report_figures.py   # rebuild all figures
+python scripts/build_report_pdf.py          # rebuild REPORT.pdf
+```
+
 ## Modeling choices
 
 - **Baseline:** Logistic Regression (interpretable)  

@@ -31,6 +31,10 @@ ENV/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
 
+# Report build byproducts
+reports/REPORT.html
+reports/_preview_*.png
+
 # IDE / OS
 .idea/
 *.swp
